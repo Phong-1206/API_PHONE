@@ -20,7 +20,7 @@ class Api:
   def Mocha(self):
     self.headers.update({"Connection": "keep-alive","Host":"apivideo.mocha.com.vn","Origin":"https://video.mocha.com.vn","Referer":"https://video.mocha.com.vn/","Content-Length":"0"})
     headers= self.headers
-    textmocha = requests.post("https://apivideo.mocha.com.vn/onMediaBackendBiz/mochavideo/getOtp?msisdn=0334304657&languageCode=vi", headers=headers).text
+    textmocha = requests.post("https://apivideo.mocha.com.vn/onMediaBackendBiz/mochavideo/getOtp?msisdn=0334304658&languageCode=vi", headers=headers).text
     print(textmocha)
   def Winmart(self):
     phone = self.phone
