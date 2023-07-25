@@ -43,5 +43,5 @@ class Api:
     }
     check = requests.post("https://www.thegioididong.com/lich-su-mua-hang/LoginV2/GetVerifyCode",headers=headers,data=data).text
     print("Check "+check)
-Api("0334304657").The_Gioi_Di_Dong()
+Api("0334304658").The_Gioi_Di_Dong()
 
